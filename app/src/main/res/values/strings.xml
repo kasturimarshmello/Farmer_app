@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">FarmerAPP
+    </string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="email_valid">Email(Valid)</string>
+    <string name="password">Password</string>
+    <string name="vegetables">Vegetables</string>
+    <string name="grains">Grains</string>
+    <string name="fruits">Fruits</string>
+    <string name="chat">Chat</string>
+    <string name="remain">Remain</string>
+    <string name="username">Username</string>
+    <string name="attempts">Attempts</string>
+    <string name="name">Name</string>
+    <string name="Customer">Customer</string>
+    <string name="Farmer">Farmer </string>
+    <string name="Potatoes">Potatoes</string>
+    <string name="Onions">Onions</string>
+    <string name="tomatoes">tomatoes</string>
+    <string name="Cabbage">Cabbage</string>
+    <string name="beetroot">beetroot</string>
+    <string name="spinach">spinach</string>
+    <string name="register">Register</string>
+    <string name="err_msg_name" />
+    <string name="todo1">TODO1</string>
+    <string name="radiobutton">RadioButton</string>
+    <string name="button">Chat</string>
+    <string name="price">Price/kg</string>
+    <string name="RadioButton">select</string>
+    <string name="select">Select</string>
+    <string name="select1">Select</string>
+    <string name="select2">Select</string>
+    <string name="select3">Select</string>
+    <string name="Cart">Cart</string>
+    <string name="Cash">Cash on delivery</string>
+    <string name="Ewallet">Ewallet</string>
+    <string name="submit">Submit</string>
+    <string name="message">EnterMessage</string>
+    <string name="value">Value:</string>
+    <string name="feedback">Enter Feedback</string>
+    <string name="thank">ThankYou!For your Feedback!</string>
+    <string name="tomato">TODO</string>
+    <string name="mangoes">TODO</string>
+    <string name="oranges">TODO</string>
+    <string name="wheat">TODO</string>
+    <string name="rice">TODO</string>
+    <string name="Attempt">Attempts left : 3</string>
+    <string name="title_rate">potato</string>
+    <string name="title_details">detail</string>
+    <string name="title_name">titleName</string>
+    <string name="title_potatoes">potato</string>
+    <string name="Send">Button</string>
+    <string name="phone">phone</string>
+    <string name="title_address">address</string>
+    <string name="title_onions">Onions</string>
+    <string name="TODO">onions</string>
+    <string name="title_cabbage">cabbage</string>
+    <string name="image">cabbage</string>
+    <string name="todo">TODO</string>
+    <string name="text">1 kg potato</string>
+</resources>
+
+

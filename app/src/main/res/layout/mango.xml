@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sgosavi.best.MangoActivity">
+
+    <EditText
+        android:id="@+id/nameatmangoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/nameviewatM"
+        android:layout_toEndOf="@+id/textView5"
+        android:layout_toRightOf="@+id/textView5"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/nameviewatM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_below="@+id/imageView13"
+        android:layout_marginTop="16dp"
+        android:text="@string/title_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        tools:text="Name" />
+
+    <EditText
+        android:id="@+id/raters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignLeft="@+id/nameatmangoes"
+        android:layout_alignStart="@+id/nameatmangoes"
+        android:layout_marginLeft="9dp"
+        android:layout_marginStart="9dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/title_rate"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:text="Price/kg" />
+
+    <Button
+        android:id="@+id/details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView13"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imageView13"
+        android:layout_marginBottom="33dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/title_details" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/mangoes"
+        app:srcCompat="@drawable/mangoes" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/details"
+        android:layout_toLeftOf="@+id/raters"
+        android:layout_toStartOf="@+id/raters"
+        android:text="@string/button"
+        android:onClick="send"
+        tools:text="Send" />
+
+</RelativeLayout>

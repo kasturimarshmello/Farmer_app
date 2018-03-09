@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sgosavi.best.OnionsActivity">
+
+    <Button
+        android:id="@+id/details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="47dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:onClick="send"
+        android:text="@string/title_details" />
+
+    <TextView
+        android:id="@+id/nameatonions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rateatonions"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="22dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/title_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        tools:text="Name" />
+
+    <TextView
+        android:id="@+id/rateatonions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/details"
+        android:layout_alignLeft="@+id/nameatonions"
+        android:layout_alignStart="@+id/nameatonions"
+        android:layout_marginBottom="80dp"
+        android:text="@string/title_rate"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:text="price/kg" />
+
+    <EditText
+        android:id="@+id/nameviewatonions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nameatonions"
+        android:layout_alignBottom="@+id/nameatonions"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/rateatonions"
+        android:layout_toRightOf="@+id/rateatonions"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/rateviewatonions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/rateatonions"
+        android:layout_alignBottom="@+id/rateatonions"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_toEndOf="@+id/rateatonions"
+        android:layout_toRightOf="@+id/rateatonions"
+        android:ems="10"
+        android:inputType="number" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/nameviewatonions"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/nameviewatonions"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        app:srcCompat="@drawable/onions" android:contentDescription="@string/TODO" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/details"
+        android:layout_alignBottom="@+id/details"
+        android:layout_toLeftOf="@+id/rateviewatonions"
+        android:layout_toStartOf="@+id/rateviewatonions"
+        android:text="@string/button"
+        tools:text="Send" />
+
+
+</RelativeLayout>
